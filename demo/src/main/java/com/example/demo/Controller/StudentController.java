@@ -13,7 +13,7 @@ public class StudentController {
      @Autowired
     private StudentService studentService;
 
-     @GetMapping("/fetch")
+     @GetMapping("/save")
      public List<student> getAll()
      {
          return studentService.getAllData();
