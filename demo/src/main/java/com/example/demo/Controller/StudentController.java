@@ -12,8 +12,8 @@ import java.util.List;
 public class StudentController {
      @Autowired
     private StudentService studentService;
-
-     @GetMapping("/fetch")
+//Ajay change
+     @GetMapping("/fetchThe details")
      public List<student> getAll()
      {
          return studentService.getAllData();
